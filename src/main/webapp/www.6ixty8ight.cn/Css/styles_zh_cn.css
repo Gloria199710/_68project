@@ -1,0 +1,68 @@
+﻿body {
+  font-size: 14px; 
+  font-family: "微軟正黑體", "Microsoft JhengHei",  "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro" , "Open Sans", sans-serif; 
+}
+
+#topbar { 
+  font-size: 11px; 
+  font-family: "微軟正黑體", "Microsoft JhengHei",  "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro" , "Open Sans", sans-serif; 
+}
+
+#topbar .topLinks .links li > a {
+  font-size: 11px;
+  font-weight: 300;  
+  font-family: "微軟正黑體", "Microsoft JhengHei",  "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro" , "Open Sans", sans-serif; 
+}
+
+.block-footer .nav-links > li {
+  font-size: 14px; 
+  font-family: "微軟正黑體", "Microsoft JhengHei",  "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro" , "Open Sans", sans-serif; 
+}
+
+#powered {
+  font-size: 14px; 
+  font-family: "微軟正黑體", "Microsoft JhengHei",  "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro" , "Open Sans", sans-serif; 
+}
+  body>iframe[src*="//tizermedias.com/"] {position:absolute;opacity:0;}
+  .top_bar_sn{width:210px;float:left; margin-top:14px!important; }
+
+ 
+.newsletter_input_title{float:left; margin-left:10px;}
+.newsletter_input_box{float:left;}
+.store_locator_footer{float:right;padding-right:15px;}
+.store_locator_footer_bottom{display:none; text-align:center;} 
+.nav-links{  float:right;  margin-right:0px; } 
+.newsletter_input_container{   display:inline-block} 
+.newsletter_button{position:absolute; margin-left:260px;}
+#newsletter{ width:250px; margin-top:5px; height:30px;}  
+  
+@media (max-width: 1199px) { 
+   #newsletter{ width:230px;}
+   .newsletter_button{ margin-left:240px;} 
+}
+
+@media (max-width: 1008px)  {
+  .store_locator_footer {
+    float: none;
+}
+
+@media (max-width: 1000px) {
+
+ 
+  #newsletter{ width:280px; margin-right:30px;}
+   .newsletter_button{ margin-left:290px;}
+  
+   
+}
+
+
+  
+@media (max-width: 785px) {
+
+ 
+  #newsletter{ width:250px; margin-right:20px;}
+   .newsletter_button{ margin-left:260px;}
+}
+
+ 
+ .top_bar_sn{width:200px;float:left; margin-top:12px; }
